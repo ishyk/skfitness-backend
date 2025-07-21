@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 const nodemailer = require("nodemailer");
-const {{ v4: uuid }} = require("uuid");
+const { v4: uuid } = require("uuid");
 const app = express();
 
 app.use(cors());
